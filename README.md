@@ -11,21 +11,18 @@ An educational organization offering computer courses wants to implement a datab
 9.	For the attendance, no extra attributes are required.
 
 
-The following steps taken to design and implement the database:
+The following steps taken to design and implement the database.
 
-ERD logical model;
-An entity relationship diagram (ERD) has been devoloped out of the conceptual definition of the situation, refer to "DB ERD.pdf" file
+ERD logical model: an entity relationship diagram (ERD) has been devoloped out of the conceptual definition of the situation, refer to "DB ERD.pdf" file
 for type of relationship built between the entities and attributes.
 
-Creating database;
-Based on the ERD the database has been created in Oracle database server envoirnment with the name "DB Define.sql".
+Creating database: based on the ERD the database has been created in Oracle database server envoirnment with the name "DB Define.sql".
 
-Insert data;
-Inserted some data via command line, the "script.txt" illustrates how SQL command is used to store data.
+Inserting data: some data inserted via command line, the "script.txt" illustrates how SQL command is used to store data.
 
-Quering data using SQL command line:
-select distinct Gender from student;
-select max (invoice_amount) / 2 from invoice; 
-select* from invoice WHERE invoice_amount > 280;
-select authorization_no from instructor Group by authorization_no DESC;
-Select*from authorization WHERE (authorization_date BETWEEN ‘1981/05/17’ AND ‘1989/12/31’); 
+Quering data using SQL command line.
+1. select distinct Gender from student;
+2. select max (invoice_amount) / 2 from invoice; 
+3. select * from invoice WHERE invoice_amount > 280;
+4. select authorization_no from instructor Group by authorization_no DESC;
+5. Select * from authorization WHERE (authorization_date BETWEEN ‘1981/05/17’ AND ‘1989/12/31’); 
