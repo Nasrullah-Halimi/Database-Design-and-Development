@@ -1,5 +1,5 @@
 Project description:
-An educational organization offering computer courses wants to implement a database that would handle the organization data with the following specifications
+An educational organization offering computer courses wants to implement a database that would handle the organization data with the following specifications;
 1.	Keep the attributes minimal for all entities. 
 2.	For the instructor entity except for the keys (primary and possible foreign) keep the instructor name.
 3.	For the subject area, course entities keep only their names.
@@ -13,14 +13,14 @@ An educational organization offering computer courses wants to implement a datab
 
 The following steps taken to design and implement the database:
 
-ERD logical model
-An Entity relationship diagram has been devoloped out of the conceptual definition of the situation, refer to "DB ERD.pdf" file
+ERD logical model;
+An entity relationship diagram (ERD) has been devoloped out of the conceptual definition of the situation, refer to "DB ERD.pdf" file
 for type of relationship built between the entities and attributes.
 
-Creating database
+Creating database;
 Based on the ERD the database has been created in Oracle database server envoirnment with the name "DB Define.sql".
 
-Insert data
+Insert data;
 Inserted some data via command line, the "script.txt" illustrates how SQL command is used to store data.
 
 Quering data using SQL command line:
